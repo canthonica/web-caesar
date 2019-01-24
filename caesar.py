@@ -15,7 +15,7 @@ def rotate_character(char, rot):
     else:
         return char
 
-def encrypt(text, rot):
+def rotate_string(text, rot):
     code = ""
     for char in text:
         code += rotate_character(char, rot)
